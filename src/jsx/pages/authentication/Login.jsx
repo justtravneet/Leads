@@ -67,7 +67,7 @@ function Login() {
 					</div>
 
 					<div className='w-[100%] h-[auto] bg-white'>
-						<div className='p-6 flex flex-col gap-[30px] py-[60px] lg:px-[50px] mb-[60px] sm:mb-[40px] '>
+						<div className='p-6 flex flex-col gap-[30px] py-[60px] lg:px-[50px] mb-[30px] sm:mb-[40px] '>
 							<div className='p-2'>
 								<div className=''>
 									<img className='w-[200px]' src={logoFull} alt="logo" />
@@ -172,7 +172,6 @@ function Login() {
 	)
 
 }
-
 const mapStateToProps = (state) => {
 	return {
 		errorMessage: state.auth.errorMessage,
